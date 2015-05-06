@@ -1,0 +1,7 @@
+I, [2015-05-02T12:41:32.631596 #15012]  INFO -- : Started GET "/" for 127.0.0.1 at 2015-05-02 12:41:32 -0400
+I, [2015-05-02T12:41:32.635766 #15012]  INFO -- : Processing by PagesController#home as HTML
+I, [2015-05-02T12:41:32.644993 #15012]  INFO -- :   Rendered pages/home.html.erb within layouts/application (0.6ms)
+I, [2015-05-02T12:41:32.647972 #15012]  INFO -- :   Rendered shared/_navbar.html.erb (1.4ms)
+I, [2015-05-02T12:41:32.649040 #15012]  INFO -- :   Rendered shared/_footer.html.erb (0.2ms)
+I, [2015-05-02T12:41:32.649332 #15012]  INFO -- : Completed 200 OK in 13ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+I, [2015-05-02T12:41:32.766263 #15012]  INFO -- : Started GET "/assets/fontawesome-webfont.woff?v=4.3.0" for 127.0.0.1 at 2015-05-02 12:41:32 -0400
