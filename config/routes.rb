@@ -33,6 +33,22 @@ Rails.application.routes.draw do
 
   get 'places-to-sell-handbags-nyc-queens' => 'pages#about', as: :about
 
+  get 'sell-handbags-in-brooklyn' => 'pages#brooklyn', as: :brooklyn
+
+  get 'sell-handbags-in-manhattan' => 'pages#manhattan', as: :manhattan
+
+  get 'sell-handbags-in-queens' => 'pages#queens', as: :queens
+
+  get 'sell-handbags-in-staten-island' => 'pages#staten_island', as: :staten_island
+
+  get 'sell-handbags-in-bronx' => 'pages#bronx', as: :bronx
+
+  get 'sell-handbags-in-long-island' => 'pages#long_island', as: :long_island
+
+  get 'sell-handbags-in-connecticute' => 'pages#connecticut', as: :connecticute
+
+  get 'sell-handbags-in-new_jersey' => 'pages#new_jersey', as: :new_jersey
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

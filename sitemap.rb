@@ -18,5 +18,19 @@ SitemapGenerator::Sitemap.create do
   add '/sell-balenciaga-handbag-nyc'
   add '/sell-jimmy_choo-handbag-nyc'
   add '/sell-others-handbag-nyc'
+
+
+  add '/sell-handbags-in-brooklyn'
+  add '/sell-handbags-in-manhattan'
+  add '/sell-handbags-in-queens'
+  add '/sell-handbags-in-staten-island'
+  add '/sell-handbags-in-bronx'
+  add '/sell-handbags-in-long-island'
+  add '/sell-handbags-in-connecticute'
+  add '/sell-handbags-in-new_jersey'
+
+
+
+
 end
 SitemapGenerator::Sitemap.ping_search_engines # Not needed if you use the rake tasks
