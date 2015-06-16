@@ -31,5 +31,7 @@ class PagesController < ApplicationController
 
   def connecticute
   end
+  def pawnshop
+  end
 
 end

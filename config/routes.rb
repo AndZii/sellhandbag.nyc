@@ -49,6 +49,8 @@ Rails.application.routes.draw do
 
   get 'sell-handbags-in-new_jersey_nj' => 'pages#new_jersey', as: :new_jersey
 
+  get 'pawn-shop-that-buy-bags' => 'pages#pawnshop', as: :pawnshop
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
