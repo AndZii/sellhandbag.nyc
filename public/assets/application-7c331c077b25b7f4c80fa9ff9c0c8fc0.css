@@ -3,7 +3,7 @@ body, html {
   font-family: 'PT sans', Arial;
 }
 
-/* line 8, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 8, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 h1 {
   border-radius: 10px;
   font-weight: bold;
@@ -13,18 +13,18 @@ h1 {
   text-align: center;
 }
 
-/* line 18, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 18, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .logo-part {
   color: #2f3136;
 }
 
-/* line 22, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 22, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .logo {
   font-weight: bold;
   font-size: 200%;
 }
 
-/* line 29, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 29, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .underline-a {
   font-weight: bold;
   font-size: 300%;
@@ -32,20 +32,20 @@ h1 {
 }
 
 @media only screen and (min-width: 768px) {
-  /* line 39, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 39, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   .underline-a {
     font-weight: bold;
     font-size: 220%;
   }
 
-  /* line 46, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 46, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   nav .underline-a {
     display: inline-block;
     position: relative;
     padding-bottom: 5px;
   }
 
-  /* line 53, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 53, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   nav .underline-a:after {
     content: '';
     display: block;
@@ -56,18 +56,18 @@ h1 {
     transition: width .5s ease, background-color .5s ease;
   }
 
-  /* line 62, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 62, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   .navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
     color: #2f3136;
   }
 
-  /* line 66, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 66, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   nav .underline-a:hover:after {
     width: 100%;
     background: #2f3136;
   }
 
-  /* line 71, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 71, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   .navbar {
     height: 150px;
     background: url("/big.jpg");
@@ -75,7 +75,7 @@ h1 {
     background-position: bottom center;
   }
 }
-/* line 84, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 84, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .mobile-call {
   height: 60px;
   background: #ececec;
@@ -87,23 +87,23 @@ h1 {
   margin-top: 10px;
 }
 
-/* line 95, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 95, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .red {
   color: red;
 }
 
-/* line 99, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 99, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .blue {
   color: blue;
 }
 
-/* line 103, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 103, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .green {
   color: green;
 }
 
 @media only screen and (max-width: 768px) {
-  /* line 109, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 109, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   .navbar {
     background: url("/big.jpg");
     background-repeat: no-repeat;
@@ -111,63 +111,63 @@ h1 {
     background-size: contain;
   }
 
-  /* line 119, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 119, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   ul.dropdown-menu > li a {
     font-size: 220%;
     margin-bottom: 5px;
   }
 
-  /* line 125, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+  /* line 125, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
   footer > a {
     font-size: 200%;
   }
 }
-/* line 131, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 131, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .img {
   float: right;
 }
 
-/* line 135, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 135, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .address {
   margin: 0;
   padding: 0;
 }
 
-/* line 140, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 140, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .main-info p {
   text-indent: 35px;
   font-size: 130%;
   text-align: justify;
 }
 
-/* line 148, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 148, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .mobile-address {
   margin: 0 20px;
 }
 
-/* line 152, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 152, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .footer {
   height: 140px;
   background: white;
   margin-top: 40px;
 }
 
-/* line 158, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 158, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .footer a {
   font-size: 120%;
 }
 
-/* line 162, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 162, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .footer {
   padding-top: 0px;
 }
 
-/* line 167, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 167, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .addr {
   font-size: 135%;
 }
 
-/* line 171, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.css.scss */
+/* line 171, /Users/andrey/Desktop/mikes_projects/sellhandbag.nyc/app/assets/stylesheets/application.scss */
 .mobile-address a {
   font-size: 115%;
 }
