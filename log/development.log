@@ -3418,3 +3418,107 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 16:25:56
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 16:25:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:05:20 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.haml (3.0ms)
+Completed 200 OK in 32ms (Views: 25.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 17:05:20 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:05:29 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.haml (2.8ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 17:05:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 17:05:29 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:05:47 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (2.7ms)
+Completed 200 OK in 45ms (Views: 44.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 17:05:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 17:05:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:07:03 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.5ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (3.1ms)
+Completed 200 OK in 17ms (Views: 16.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 17:07:03 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 17:07:03 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:07:27 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (1.7ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Inconsistent indentation: 5 spaces used for indentation, but the rest of the document was indented using 3 spaces.):
+    1: %footer.footer-distributed
+    2:    .footer-left
+    3:      %h3
+    4:        Sell
+    5:        %span Handbag
+    6:        NYC
+  app/views/shared/_footer.html.haml:3
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___4430609873653086773_70305220682820'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (14.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 17:07:32 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.haml (4.2ms)
+Completed 200 OK in 20ms (Views: 19.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 17:07:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 17:07:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 18:20:27 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.haml (3.3ms)
+Completed 200 OK in 59ms (Views: 52.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 18:20:27 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 18:20:27 -0500
