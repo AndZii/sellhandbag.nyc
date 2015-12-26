@@ -365,3 +365,19 @@ h2{
     text-align: center;
   }
 }
+
+.insta-alert {
+  position: relative;
+}
+.insta-link {
+  border: none !important;
+  position: absolute;
+  color: black;
+  opacity: .15;
+  top: 10%;
+  left: 40%;
+  width: 20%;
+  &:hover {
+    text-decoration: none;
+  }
+}

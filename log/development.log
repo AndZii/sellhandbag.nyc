@@ -3522,3 +3522,165 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 18:20:27
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 18:20:27 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:13:26 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (1.4ms)
+  Rendered shared/_instagram.html.haml (1.1ms)
+  Rendered shared/_footer.html.haml (2.5ms)
+Completed 200 OK in 57ms (Views: 51.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:13:26 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:13:54 -0500
+Processing by PagesController#home as HTML
+  Rendered pages/home.html.erb within layouts/application (0.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 14ms (Views: 14.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:13:54 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:13:54 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:14:47 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 14ms (Views: 13.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:14:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:14:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:15:32 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navbar.html.erb (24.5ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 96ms (Views: 96.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:15:33 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:15:33 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:15:59 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (1.2ms)
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (1.3ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 17ms (Views: 16.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:15:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:15:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:16:08 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (1.2ms)
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 42ms (Views: 42.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:16:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:16:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:16:23 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 44ms (Views: 43.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:16:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:16:23 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:16:47 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:16:47 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:16:47 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:17:13 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 65ms (Views: 64.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:17:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:17:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:17:21 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.4ms)
+  Rendered shared/_navbar.html.erb (0.9ms)
+  Rendered shared/_footer.html.haml (0.1ms)
+Completed 200 OK in 67ms (Views: 66.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:17:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:17:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:17:41 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.6ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 64ms (Views: 63.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:17:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:17:41 -0500
