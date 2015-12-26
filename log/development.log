@@ -3684,3 +3684,84 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-12-25 19:17:41
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:17:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:41:18 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (1.2ms)
+  Rendered pages/home.html.erb within layouts/application (4.1ms)
+  Rendered shared/_navbar.html.erb (1.5ms)
+  Rendered shared/_footer.html.haml (1.3ms)
+Completed 500 Internal Server Error in 24ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: row.
+    2:   .col-md-12
+    3:     %footer.footer-distributed
+    4:       .footer-left
+    5:         %h3
+  app/views/shared/_footer.html.haml:2
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3673310629566728406_70165911771680'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:41:35 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.4ms)
+Completed 500 Internal Server Error in 10ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: row.
+    2:   .col-md-12
+    3:     %footer.footer-distributed
+    4:       .footer-left
+    5:         %h3
+  app/views/shared/_footer.html.haml:2
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3673310629566728406_70165911771680'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (7.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:41:36 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.3ms)
+  Rendered pages/home.html.erb within layouts/application (1.5ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.5ms)
+Completed 500 Internal Server Error in 11ms
+
+ActionView::Template::Error (Illegal nesting: nesting within plain text is illegal.):
+    1: row.
+    2:   .col-md-12
+    3:     %footer.footer-distributed
+    4:       .footer-left
+    5:         %h3
+  app/views/shared/_footer.html.haml:2
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb__3673310629566728406_70165911771680'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p645/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (8.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-12-25 19:41:49 -0500
+Processing by PagesController#home as HTML
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (1.3ms)
+  Rendered shared/_navbar.html.erb (0.7ms)
+  Rendered shared/_footer.html.haml (2.8ms)
+Completed 200 OK in 45ms (Views: 44.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-12-25 19:41:49 -0500
