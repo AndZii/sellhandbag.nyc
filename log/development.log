@@ -4744,3 +4744,541 @@ Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-24 20:27:20
 
 
 Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-24 20:27:20 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-25 19:31:36 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.4ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#home as HTML
+  [1m[35mVisitors Load (0.3ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.7ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:31:36.801206"], ["visits", 8]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_instagram.html.haml (8.1ms)
+  Rendered shared/_amazon_ad.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (13.1ms)
+  Rendered shared/_navbar.html.erb (1.8ms)
+  Rendered shared/_footer.html.haml (36.3ms)
+Completed 200 OK in 96ms (Views: 75.8ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-25 19:31:36 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-25 19:31:36 -0400
+
+
+Started GET "/apple-touch-icon-precomposed.png" for 127.0.0.1 at 2017-05-25 19:31:37 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon-precomposed.png"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.0ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (3.0ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (29.3ms)
+
+
+Started GET "/apple-touch-icon.png" for 127.0.0.1 at 2017-05-25 19:31:37 -0400
+
+ActionController::RoutingError (No route matches [GET] "/apple-touch-icon.png"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.3ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (21.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-25 19:31:40 -0400
+Processing by PagesController#home as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:31:40.324423"], ["visits", 9]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered shared/_amazon_ad.erb (0.0ms)
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (1.1ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 19ms (Views: 15.7ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-25 19:31:40 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-25 19:31:40 -0400
+
+
+Started GET "/0V33ou7Mmx" for 127.0.0.1 at 2017-05-25 19:31:40 -0400
+
+ActionController::RoutingError (No route matches [GET] "/0V33ou7Mmx"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.9ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-25 19:31:44 -0400
+Processing by PagesController#home as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:31:44.557198"], ["visits", 10]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered shared/_amazon_ad.erb (0.0ms)
+  Rendered pages/home.html.erb within layouts/application (1.7ms)
+  Rendered shared/_navbar.html.erb (0.8ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 17ms (Views: 14.2ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-25 19:31:44 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-25 19:31:44 -0400
+
+
+Started GET "/sell/iphone/7/nyc" for 127.0.0.1 at 2017-05-25 19:31:45 -0400
+
+ActionController::RoutingError (No route matches [GET] "/sell/iphone/7/nyc"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.9ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-05-25 19:31:48 -0400
+
+ActionController::RoutingError (No route matches [GET] "/statistics"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.3ms)
+
+
+Started GET "/statistics" for 127.0.0.1 at 2017-05-25 19:32:05 -0400
+
+ActionController::RoutingError (No route matches [GET] "/statistics"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (20.6ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:32:05 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.2ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:32:05.736368"], ["visits", 11]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Completed 500 Internal Server Error in 6ms
+
+ActionView::MissingTemplate (Missing template pages/statistic, application/statistic with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :haml, :jbuilder]}. Searched in:
+  * "/Users/andrey/projects/sellhandbag.nyc/app/views"
+):
+  app/controllers/pages_controller.rb:24:in `statistic'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/missing_template.html.erb within rescues/layout (0.4ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:32:22 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.2ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:32:22.611263"], ["visits", 12]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Completed 406 Not Acceptable in 7ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/pages_controller.rb:24:in `statistic'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (14.2ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:32:24 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.2ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:32:24.480236"], ["visits", 13]]
+  [1m[36m (0.6ms)[0m  [1mcommit transaction[0m
+Completed 406 Not Acceptable in 3ms
+
+ActionController::UnknownFormat (ActionController::UnknownFormat):
+  app/controllers/pages_controller.rb:24:in `statistic'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.5ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (11.3ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:33:37 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:33:37.687476"], ["visits", 14]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:33:42 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:33:42.139338"], ["visits", 15]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:33:43 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:33:43.139748"], ["visits", 16]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 3ms (Views: 0.1ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:35:42 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:35:42.615814"], ["visits", 17]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 2.3ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:36:07 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.2ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:36:07.527361"], ["visits", 18]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.1ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:36:08 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:36:08.528012"], ["visits", 19]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+Completed 200 OK in 4ms (Views: 0.1ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:37:24 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:37:24.214947"], ["visits", 20]]
+  [1m[36m (1.4ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:39:58 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:39:58.591863"], ["visits", 21]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+Completed 200 OK in 17ms (Views: 0.3ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:40:31 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:40:31.584106"], ["visits", 22]]
+  [1m[36m (1.6ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "visitors"
+  [1m[36mVisitors Load (0.1ms)[0m  [1mSELECT "visitors".* FROM "visitors"[0m
+Completed 200 OK in 18ms (Views: 0.2ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:41:57 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:41:57.588320"], ["visits", 23]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+Completed 500 Internal Server Error in 19ms
+
+NameError (undefined local variable or method `res' for #<PagesController:0x007febe465a6f8>):
+  app/controllers/pages_controller.rb:23:in `statistic'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_source.erb (0.4ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.8ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.7ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (40.6ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:42:20 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:42:20.250333"], ["visits", 24]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+Completed 200 OK in 17ms (Views: 0.2ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:43:12 -0400
+  [1m[36mActiveRecord::SchemaMigration Load (0.1ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:43:12.368878"], ["visits", 25]]
+  [1m[36m (1.3ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "visitors".* FROM "visitors"[0m
+Completed 200 OK in 18ms (Views: 0.6ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/statistic" for 127.0.0.1 at 2017-05-25 19:43:33 -0400
+Processing by PagesController#statistic as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:43:33.109876"], ["visits", 26]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "visitors".* FROM "visitors"[0m
+Completed 200 OK in 3ms (Views: 0.4ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/sell/iphone/7/nyc" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+
+ActionController::RoutingError (No route matches [GET] "/sell/iphone/7/nyc"):
+  actionpack (4.1.8) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.8) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.8) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.8) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.8) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.8) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.8) lib/rails/engine.rb:514:in `call'
+  railties (4.1.8) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/andrey/.rvm/rubies/ruby-2.0.0-p647/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (0.9ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.4ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.6ms)
+  Rendered /Users/andrey/.rvm/gems/ruby-2.0.0-p647/gems/actionpack-4.1.8/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (48.9ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+Processing by PagesController#home as HTML
+  [1m[35mVisitors Load (0.2ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:43:34.621497"], ["visits", 27]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_instagram.html.haml (5.3ms)
+  Rendered shared/_amazon_ad.erb (0.2ms)
+  Rendered pages/home.html.erb within layouts/application (7.8ms)
+  Rendered shared/_navbar.html.erb (1.6ms)
+  Rendered shared/_footer.html.haml (5.0ms)
+Completed 200 OK in 34ms (Views: 29.2ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+
+
+Started GET "/" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+Processing by PagesController#home as HTML
+  [1m[35mVisitors Load (0.1ms)[0m  SELECT "visitors".* FROM "visitors"  WHERE (remote_ip IN ('127.0.0.1'))
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  UPDATE "visitors" SET "updated_at" = ?, "visits" = ? WHERE "visitors"."id" = 1  [["updated_at", "2017-05-25 23:43:34.717301"], ["visits", 28]]
+  [1m[36m (0.5ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_instagram.html.haml (0.2ms)
+  Rendered shared/_amazon_ad.erb (0.1ms)
+  Rendered pages/home.html.erb within layouts/application (2.3ms)
+  Rendered shared/_navbar.html.erb (1.0ms)
+  Rendered shared/_footer.html.haml (0.0ms)
+Completed 200 OK in 19ms (Views: 15.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2017-05-25 19:43:34 -0400
