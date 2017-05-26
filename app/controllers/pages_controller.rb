@@ -21,6 +21,7 @@ class PagesController < ApplicationController
         puts visitor.remote_ip
       end   
       res = Hash.new
+      res[:total_count] = Visitors.all.count
       res[:website_name] = "sellhandbag.nyc"
       res[:visitors] = Visitors.all
       render json: res      
